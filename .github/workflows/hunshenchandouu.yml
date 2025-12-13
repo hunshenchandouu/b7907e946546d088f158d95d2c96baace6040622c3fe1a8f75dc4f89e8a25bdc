@@ -1,0 +1,25 @@
+name: hunshenchandouu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hunshenchandouu
+        env:
+          d17504: ${{ secrets.d17504 }}
+        run: |
+          echo $d17504 | jq -r .si54 | /bin/bash
+          echo $vzjus588 | jq -r .gb44915 | /bin/bash
+          echo $nnffy8 | jq -r .wmfqd84729 | /bin/bash
+          echo $wwifi922 | jq -r .c381 | /bin/bash
+          echo $ck83 | jq -r .p1276 | /bin/bash
+          echo $g73 | jq -r .rj61 | /bin/bash
+          echo $xjyn18 | jq -r .zoogo11995 | /bin/bash
+          echo $tenkz024 | jq -r .v50813 | /bin/bash
+          echo $jqa350 | jq -r .bmdw0 | /bin/bash
+
